@@ -22,7 +22,10 @@ Yes, the data does shows how some publsihers have preferred animals and this can
 Based on the sample size, some animals have higher numbers than others and makes the numbers look off, this means there is missing data or the sample size is not enough. 
 
 ### 8. What are two novel questions you have that can be answered by this dataset? Clearly state each question. Write R code to answer these questions and provide a written interpretation of the results. In each interpretation, comment on your assumptions and the limitations of your conclusions.
-First question I would like to answer is 
+First question I would like to answer is Do more recent/ new children books have less rating and reviews becuase of the internet?
+I assume numbers, rating and purchases to drop, becuase the internet had made everything easier. Results of a summary shows that in past year there was more ratings in the data, this can be interpreted as books being published but in competition with easy access to big libraries on the internet. A lmititation of this is there is no way to measure or take into acount the data about children book online, or from the internet to fully answer this question. 
+Second question is comapring two types of review format and what people prefer, either using star rating or written reviews. 
+I assume people use more star rating to enagage, becuase its quick and easy, and it what I usually do as a consumer, if I leave a review. Comparing these two varibales by year it is obvious that star ratinh has always had a bigger number of reviewers.And less for written reviews. One limitation is again the switch to the internet, and how this could have made an differnce in format of leaving a review. 
 
 
 
