@@ -1,24 +1,31 @@
-Part A: Data Discovery
+#1. Data set url File name: 
+https://s3.amazonaws.com/og-production-open-data-chelseama-892364687672/resources/cb040707-4ced-4f69-8867-53bba4513bee/ca-hcai-total-construction-cost-01222026.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJJIENTAPKHZMIPXQ%2F20260206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260206T001545Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dbe6707d91c536e231d4b1a3eefaa5d36a46335aba7c036a8e66892575753d36
+Total Construction Cost of Healthcare Project (CSV)
+#2. Why I selected data set and personal connection
+I choose this data becuase my dad works in construction so once im done its something I could share and talk about with him. I think its interesting to see why some loations receive more investment towards their healthcare projets or infastrcuture. As an economics major I think this can help adress the scarcity of funds in some regions, and why this changes wellbeing and overall economic development. Although the topics can seem distinct, healthcare and investment are factors of a cities and countries eocnomic wellbeing. 
+#3 Meta data 
+Title: Total Construction Cost of Healthcare Projects 
+Source: Department of Healthcare Access and Information (HCAI)
+Format: CSV 
+Liscense: Public 
+Last Updated: January 23,2026 (updated bi weekly)
+Spatial Coverage: California (organized by county)
+#4 Biography 
+Data collector: by the Facilities Development Division of HCAI 
+Purpose: tracks "Total Dollar Value" and "Number of Projects" using: In Review, Pending Construction, Under Construction, and In Closure" 
+Collection method: uses administrative filing such as SQL, Excel, VBA
+Note: It includes data required to be reported by the state/law.
+#5 What i found surpising 
+I found it surprising how simplified the data is, I thought it would be overcomplicated with budegts, and recpeits, etc. 
 
-1. **Dataset Details**
-  - **URL**: https://data.ca.gov/dataset/total-construction-cost-of-healthcare-projects
-- **File Name**: ca-hcai-total-construction-cost-01222026.csv
 
-2. **Selection Narrative**
-  I selected this dataset because, as a student at UC Davis, I am interested in how infrastructure spending influences local California economies. I have a personal connection to the Salinas area and want to see how healthcare expansion there compares to other regions. This data is interesting because it tracks the financial scale of projects from review to closure.
 
-3. **Metadata**
-  - **Title**: Total Construction Cost of Healthcare Projects
-- **Creator**: Department of Health Care Access and Information (HCAI)
-- **Temporal Coverage**: 2013 to Present
-- **Update Frequency**: Bi-weekly
-- **Format**: CSV
 
-4. **Data Biography**
-  - **Collector**: Data is maintained by the Department of Health Care Access and Information (HCAI).
-- **Process**: It is generated through mandatory facility construction programs for safety and seismic compliance.
-- **Purpose**: The dataset tracks the "stage" of healthcare projects and their total dollar value.
-- **Limitation**: It provides a current "snapshot" of a project's stage rather than a full line-item budget history.
 
-5. **Discovery and Interpretation**
-I discovered that the dataset is updated as frequently as every two weeks. This influences my interpretation because it means the data captures very recent administrative changes. I must be careful not to mistake short-term reporting pauses for actual construction delays.
+
+
+
+
+
+
+
