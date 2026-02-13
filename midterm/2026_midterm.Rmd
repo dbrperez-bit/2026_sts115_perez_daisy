@@ -1,0 +1,205 @@
+---
+title: "2026 STS 1115 Midterm Exam"
+output: html_notebook
+---
+
+Welcome to the Midterm Examination for Professor Stahmer's Winter 2026 STS 115 Course.
+
+This exam is presented as an R Markdown notebook, which provides a way to mix executable code and textual commentary in a single document. Before you begin, in addition to the default "Source" view which you are most likely seeing now, you can also click on the "Visual" button in the top left of the editing pane, which will switch the view to an HTML view of the document. Some students may find the Visual view easier to read. Use whatever view works best for you.
+
+As noted above, notebooks allow us to mix text blocks (sections of prose) with executable code blocks (chunks of R code). The text you are reading is presented in a text block. Because this is an R Markdown document, you don't need to start each line in a text block with a #, thus making your file easier to read. Executable code blocks begin and end with a special designation like the following example, which is a code block containing a single comment and a single line of code:
+
+```{r}
+
+# This code makes a plot.
+plot(cars)
+
+```
+
+Try executing the example block above by clicking the green arrow *Run Current Chunk* button or by placing your cursor inside it and pressing *Cmd+Shift+Enter*.
+
+This exam consists of a set of numbered questions, each introduced in a designated text block. If you are asked to write code for the question, a code block will immediately follow the question text block. Questions that require a written answer will be followed by a designated text block. Some questions will require both code and text, in which case multiple answer blocks will appear.
+
+Once you have answered all of the exam questions to your satisfaction, be sure to follow the "Instructions for Submitting Your Exam" at the end of exam. If you do not properly submit your exam you will not receive credit for having taken it.
+
+Good luck and have fun!
+
+**QUESTION 1** (5 pts)
+
+In the code block below, write R code to assign the value 7 to a variable "x".
+
+```{r}
+# Question 1 answer here
+x=7
+```
+
+**QUESTION 2** (5 pts)
+
+In the code Block below, write R code that subtracts 3 from the variable "x" and assigns the results to a variable "y".
+
+```{r}
+# Question 2 answere here
+x= 7 
+y = x-3 
+```
+
+**Question 3** (5 pts)
+
+In the code Block below, assign the values 1, 23, 6, 2, 19, 7 to the vector "z".
+
+```{r}
+# Question 3 answere here
+z= c(1, 23, 6, 2, 19, 7)
+```
+
+**Question 4** (5 pts)
+
+In the code Block below, assign the value 3 to a variable "i" and then write a conditional statement that tests whether x is less than 5.
+
+```{r}
+# Question 4 answer here
+i = 3 
+x < 5 
+```
+
+**Question 5** (5 pts)
+
+In the code Block below, demonstrate the basic syntax for all R functions by using a single line of pseudo-code to call the imaginary function "risfun" sending it your "x" and "y" variables as arguments. (Note: it's okay that your answer will return an error if you try to run this code block.)
+
+```{r}
+# Question 5 answer here
+risfun(x, y)
+```
+
+**Question 6** (10 pts)
+
+In the space below, explain what a function is.
+
+------------------------------------------------------------------------
+
+A function in coding is a code/ command that is able to do a specific task/output. 
+------------------------------------------------------------------------
+
+**Question 7** (10 pts)
+
+In the code block below, write code to learn as much as you can about what type of object the variable "z" is.
+
+```{r}
+# Question 7 answer here
+class(z)
+str(z)
+```
+
+**Question 8** (10 pts)
+
+Run the line of code that appears in the code block below, then explain the results in the text block immediately following.
+
+```{r}
+'four' < 'five'
+```
+
+------------------------------------------------------------------------
+
+This means that four is not greater than five. 
+------------------------------------------------------------------------
+
+**Question 9** (10 pts)
+
+In the space below, define the difference between a vector, a list, a matrix, and a data.frame.
+
+------------------------------------------------------------------------
+
+A vector is one dimensional that with only one tyep of class such as charcters or numbers, and R cannot mix them. 
+A list is also a simple one dimesional, but this can hold multiple types of data at a time. for example one list can conatain a vector, numbers and another list if necesary. 
+------------------------------------------------------------------------
+
+**Question 10** (10 pts)
+
+In the space below, describe and differentiate `NA`, `NaN`, `Inf`, and `NULL`.
+
+------------------------------------------------------------------------
+NA in coding means non applicable. 
+NAN means not a numbers. 
+Inf means that the value is inifinite and canot be defined. 
+NULL means an empty object and or the abscence of value. 
+
+------------------------------------------------------------------------
+
+**Question 11** (10 pts)
+
+The Canvas directions for this exam instructed you to download both this exam file and the data file "rail_accidents.csv.zip". In the code block below, write code to read the contents of this file into an R data.frame named 'raildata'.
+
+(Hint: Pay attention to the location of the file in your system and the file path that you use when you load in the data.)
+
+```{r}
+# Question 11 answer here
+#you can use summary commands such as 
+head(df)
+glimpse(df)
+names(df)
+summary(df)
+nrow(df)
+and
+ncol(df)
+```
+
+**Question 12** (10 pts)
+
+Once you've written your code answer to the question above, run the block to load the data into your working R environment. Then, in the code block below, write R code to perform a preliminary exploration of the data as we demonstrated in class. This should include an examination of the structure of the data and summary of the data contents. (Your answer does not need to include any visualization of the data).
+
+```{r}
+# Question 12 answer here
+
+```
+
+**Question 13** (10 pts)
+
+The rail_accidents.csv.zip data that you loaded is a truncated version of the data that is made publicly available here: <https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data>. In the space below, write a Data Biography that describes the rail_accidents.csv.zip data.
+
+------------------------------------------------------------------------
+
+Dataset Name: Railroad Equipment Accident/Incident Source Data (Form 54)
+Publisher: Federal Railroad Administration (U.S. Department of Transportation)
+ Purpose & Scope
+This dataset contains records of rail equipment accidents and incidents that meet the reporting threshold defined by the FRA. These include events involving on-track railroad equipment (either moving or standing).
+Reportable incidents include collisions, derailments, fires, explosions, “acts of God,” and other significant operational events affecting railroad equipment.
+The data are sourced from official Form FRA F 6180.54 submissions from railroad companies, which are required for federal safety reporting.
+------------------------------------------------------------------------
+
+**Question 14** (10 pts)
+
+Review the structure of the rail_accident.csv.zip data and determine which columns could be coerced to different data types than the defaults which R assigned them upon reading in the data. Once you have finished your review, use the code block below to write code that assigns the column name of each of the columns you identified to a vector called "columns_to_convert".
+
+```{r}
+# Question 14 answer here
+look categorical → factor
+look like dates → Date
+look like codes → factor 
+these are the columns
+
+```
+
+**Question 15** (10 pts)
+
+Part 1: Use the code block below to write R code that outputs a single number to describe the data in the CARS column of the rails_accidents.csv.zip data.
+
+```{r}
+# Question 15, Part 1 answer here
+
+```
+
+Part 2: In the text area below, explain why you chose your answer above and what the number it output is actually telling us about the data.
+
+------------------------------------------------------------------------
+
+*Delete this line and write answer to Question 15 here.*
+
+------------------------------------------------------------------------
+
+**Congratulations! You've finished the exam. Follow the directions below to submit your answers.**
+
+Whenever you save an R Markdown notebook file in RStudio, in addition to saving the notebook file RStudio also "knits" an html version of the notebook and automatically saves it into the same directory as the notebook .Rmd file.
+
+To submit your exam, you must use command line to commit both this exam file and the .html file that RStudio created to your local Git repository, and then push that commit (containing both files) to your course GitHub repository.
+
+BOTH THE .Rmd AND .html VERSIONS OF YOUR EXAM MUST BE ON GITHUB AND IN THE CORRECT LOCATION IN ORDER TO RECEIVE CREDIT FOR THE EXAM.
