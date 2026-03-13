@@ -1,0 +1,22 @@
+# Reflection 
+Learning and using API is useful for structured  access to page content, and harder to understand at first becuase JSON response was "nested". I had to figure out where the HTML/content was stored. And it still required cleaning after scraping. This was something that stood out to me becuase on teh website it was already displayed in a table form, scraping it, did not mean i was able to use it. Specifically, the Born column had messy data becuase I had to seperate into age and country variables required for the assignment. I also noticed some countries were reflecting irrelevant labels, which shows that data collecting and scraping from public sources can be messy or labeled differntly than expected. 
+By comparing the APi dataset and scarped version I had to pay attention i was receving identical outcomes not just similar. To make sure I was doing each approach correctly.
+
+A few probelms I ran into while using API was finding and using the correct part of the API response, and cleaning the "Born" column into age and country, also making sure the final varibles match with what the assignment requires.
+I was able to solve these issues by working backwards so anlayzing previous codes/commands, running smaller commands at a time to test, and comparing outputs from both methods. And using summary commands with plots to verify the data was similar. By using the summaries, counts and graphs made it easier to catch any mistakes. 
+
+In comparison to direct scraping, it was more logical and easier to follow and understand the workflow. API is more structures and requires background/ context to use. But I think its also depends on the layout/ format of webpage. 
+I honestly enjoyed direct scraping more becuase it was easier to follow. 
+
+Overall, I learned that data collecting can be done in a variety of methods, but can still require cleaning, so verifying is important, and a crucial step, and also online data usually needs extra attention before making an analysis. 
+When collecting/ scraping its important to make it usuable. So theres a difference between raw data and clean data. My biggest takeaway of this exercise is that API's are useful but the second approach to web scraping is easier for me.
+
+Using this specific website, data, and infoomation I leanred about female Nobel laureates across differnt prize categories in peace, economics and science. The data includes recent and historical entries. While historical entries made the country field harder to standarize, it was able to make the cleaning and categroizng more realistic, becuase it is real and an example or real world imperfect/messy data. 
+
+the extra resources provided did help to make API less confusing, and understand what kinda of responses it gives and how to scrape them. Overall it helped me learn about page content/HTML, these also helped me make the connection of class material and real example.I would recommend direct scraping for a beginner like me becuase it is easier to follow.  
+
+
+
+
+
+
