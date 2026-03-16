@@ -59,3 +59,5 @@ engagement_comparison <- bears %>%
   ) %>%
   arrange(decade_category)
 print(engagement_comparison)
+
+
